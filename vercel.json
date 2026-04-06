@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api-models/:match*",
+      "destination": "https://router.huggingface.co/hf-inference/models/:match*"
+    }
+  ]
+}
